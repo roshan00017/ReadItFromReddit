@@ -31,9 +31,7 @@ body {
     background-color: #fbdedb;
     display: inline-block;
     background: #e74c3c;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
+    
     transition: 0.3s;
     font-family: sans-serif;
     font-weight: 800;
@@ -41,8 +39,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    
     box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
     position: relative;
 
@@ -50,16 +47,16 @@ body {
 
 
 .button:after {
-  content: "";
-  background: #90EE90;
+  content: "Refreshed";
+  
   display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px!important;
-  margin-top: -120%;
+  position:initial;
+  padding-top: 5%;
+  padding-left: -0%;
+  margin-left: 15%;
+  margin-top: -15%;
   opacity: 0;
-  transition: all 0.8s
+  transition: all 1s
 }
 
 .button:active:after {
