@@ -1,6 +1,6 @@
-var after=""
+var after="";
 var url ;
-let btn = document.querySelector('#button1');
+
 
 
 

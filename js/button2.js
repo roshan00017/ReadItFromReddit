@@ -17,17 +17,18 @@ var after2=""
       console.log("removed")
     }
    
+   
     var parentdiv = document.createElement("div");
     parentdiv.className = "content"
     console.log("created")
-    console.log(after)
+    console.log(after4)
     fetch(`https://www.reddit.com/r/`+url+`.json?after=${after2}`)
     .then((response) => { return response.json();
     })
     .then((body) => {
       console.log(body);
       after2 = body.data.after;
-      console.log(after)
+     
        
         for (var index = 0; index < body.data.children.length; index++){
               console.log("loop started")
