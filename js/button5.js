@@ -1,8 +1,12 @@
 var after5=""
+var url1;
+
+
 
 
   function fetchSearch(){
     url = document.getElementById("site-search").value
+    
     
     fetchContent5(url)
   
@@ -13,7 +17,15 @@ var after5=""
       document.querySelector(".content").remove()
       console.log("removed")
     }
-   
+    
+    if (url == url1){
+      console.log("true")
+    }
+    else{
+      after5="";
+    }
+      url1 =url
+    
     var parentdiv = document.createElement("div");
     parentdiv.className = "content"
     console.log("created")

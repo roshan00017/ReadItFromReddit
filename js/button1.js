@@ -4,7 +4,7 @@ var after1=""
 
 function fetchB1(){
   
-    url = 'ksi'
+    url = 'dataisbeautiful'
     
     fetchContent1(url)
     
